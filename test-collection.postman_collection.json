@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "bceab886-ebe0-4cbb-8ef8-13abdd9b6d20",
+		"name": "test-collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4358654"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/test-api/99999",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/test-api/99999",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"test-api",
+						"99999"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
