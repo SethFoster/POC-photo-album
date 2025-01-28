@@ -1,0 +1,90 @@
+{
+	"info": {
+		"_postman_id": "e4eadbe1-e72b-4177-87a5-3b17aee71fdb",
+		"name": "LeanShowcase",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33090100"
+	},
+	"item": [
+		{
+			"name": "leantech-showcase - /albums",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "lt_api_key",
+						"value": "lt_tech_showcase",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://showcase.leantechniques.com/albums",
+					"protocol": "https",
+					"host": [
+						"showcase",
+						"leantechniques",
+						"com"
+					],
+					"path": [
+						"albums"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "leantech-showcase - /albums/{id}",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "lt_api_key",
+						"value": "lt_tech_showcase",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://showcase.leantechniques.com/albums/2",
+					"protocol": "https",
+					"host": [
+						"showcase",
+						"leantechniques",
+						"com"
+					],
+					"path": [
+						"albums",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "leantech-showcase - /photos/{id}",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "lt_api_key",
+						"value": "lt_tech_showcase",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://showcase.leantechniques.com/photos/5",
+					"protocol": "https",
+					"host": [
+						"showcase",
+						"leantechniques",
+						"com"
+					],
+					"path": [
+						"photos",
+						"5"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
